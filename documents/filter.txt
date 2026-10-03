@@ -1,0 +1,8 @@
+# example filter file for use with the make_missing.py script :)
+
+# lines starting with + are considered whitelists
+# lines starting with - are considered blacklists
+# should be similar to how rclone does filtering https://rclone.org/filtering/
+- /Computers/
+- **.zip
++ **
